@@ -57,6 +57,7 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 /* Шапка сторінки */
 .header {
   border-bottom: 1px solid rgba(236, 236, 236, 1);
@@ -200,7 +201,11 @@ body {
 .activity .item + .item {
   margin-left: 30px;
 }
+
 /* Наша команда */
+.team-section:nth-child(2n) {
+  background-color: rgba(245, 244, 250, 1);
+}
 .team {
   display: flex;
   text-align: center;
